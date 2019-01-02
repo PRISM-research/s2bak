@@ -1,0 +1,380 @@
+{\rtf1\ansi\deff3\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\froman\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}{\f4\froman\fprq0\fcharset128 Calibri;}{\f5\froman\fprq0\fcharset128 Helvetica{\*\falt Arial};}{\f6\froman\fprq0\fcharset128 Liberation Serif{\*\falt Times New Roman};}{\f7\fswiss\fprq0\fcharset128 Liberation Sans{\*\falt Arial};}{\f8\fnil\fprq0\fcharset128 Times New Roman;}{\f9\fnil\fprq0\fcharset128 Liberation Serif{\*\falt Times New Roman};}{\f10\fnil\fprq2\fcharset0 FreeSans;}{\f11\fswiss\fprq0\fcharset128 FreeSans;}{\f12\fnil\fprq2\fcharset0 Liberation Serif{\*\falt Times New Roman};}}
+{\colortbl;\red0\green0\blue0;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105 Normal;}
+{\*\cs15\snext15 Default Paragraph Font;}
+{\s16\sbasedon0\snext17\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb240\sa120\keepn\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af10\afs24\alang1081\loch\f7\fs28\lang4105 Heading;}
+{\s17\sbasedon0\snext17\sl288\slmult1\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105 Text Body;}
+{\s18\sbasedon17\snext18\sl288\slmult1\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa140\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af11\afs24\alang1081\loch\f6\fs24\lang4105 List;}
+{\s19\sbasedon0\snext19\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb120\sa120\noline\ltrpar\cf1\i\kerning1\dbch\af9\langfe1081\dbch\af11\afs24\alang1081\ai\loch\f6\fs24\lang4105 Caption;}
+{\s20\sbasedon0\snext20\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\noline\ltrpar\cf1\kerning1\dbch\af9\langfe1081\dbch\af11\afs24\alang1081\loch\f6\fs24\lang4105 Index;}
+{\s21\snext21\ql\widctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb0\sa160\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1025\dbch\af12\afs24\alang1081\loch\f4\fs22\lang1033 DocumentMap;}
+{\s22\sbasedon0\snext22\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\sb120\sa120\ltrpar\cf1\i\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105 caption;}
+}{\info{\creatim\yr2018\mo12\dy31\hr14\min8}{\revtim\yr2019\mo1\dy1\hr11\min37}{\printim\yr0\mo0\dy0\hr0\min0}{\comment LibreOffice}{\vern67241986}}\deftab720\deftab720
+\viewscale200
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse451\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\pgdscnxt0 Default Style;}}
+\formshade{\*\pgdscno0}\paperh15840\paperw12240\margl1440\margr1440\margt1440\margb1440\sectd\sbknone\sectunlocked1\pgndec\pgwsxn12240\pghsxn15840\marglsxn1440\margrsxn1440\margtsxn1440\margbsxn1440\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Thank you for your download of S2BaK v 1.0 }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+(requires packages: mgcv, foreach, doParallel)}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+This script fits the Sightings-Only, S2, and BaK models, and can output fitting, validation, and projection datasets. This work is part of PRISM (Panama Research & Integrated Sustainabiity Model). Visit https://prism.research.mcgill.ca to learn more about this initiative. Users of this code should cite Leung et al. "A new baseline for countrywide \uc2 \u945\'83\'bf-diversity and species distributions: illustration using >6000 plant species in Panama" Ecol. App. \uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch
+\tab }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\ul\ulc1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+Input}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+The input required to run the model include the following, which are placed in four lists (nm_dat, opts, fit_files, sdms), located near the top of the script. To run the model, type some_variable<-S2BaK(opts, nm_dat,fit_files,sdms), which will return an output list.  }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+nm_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+: list containing the names of required (and optional) data files. Example files are provided using a small subset (500 species) of species analyzed in Panama. Please ensure that the format of the files replicate the example files. Take particular note of the row indices in each data file.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the datafile containing spatial environmental predictors. Rows are spatial locations, columns are environmental predictors (spatial location vx, vy and index are provided for information, and not used for prediction). In the sample file, terrestrial locations across Panama and Costa Rica were included. }{\cf1\i\b\dbch\af8\ai\ab\rtlch \ltrch\loch\loch\f5
+There should be no NAs in the dataset}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Also, be sure that numeric and factor data types are set as appropriate.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+env_names}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the environmental variables to include in the analysis. Must match column names in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+prjt_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - the datafile containing spatial environmental predictors used for projecting probabilities of species occurrences, after the model is built. It can either be a vector, containing an index, which corresponds to the row number in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. Alternatively, it can have the same structure as }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, and can correspond to locations not included in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. In this case, rows are spatial locations, columns are environmental predictors, which must include those found in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_names}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+prjt_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ is only needed if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_projections}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T (see below). Otherwise, set to NA.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab s}{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+o_dat }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\u8211\'3f the sightings only data. The datafile should consist of two columns. The first column is an index, which corresponds to the row number in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, which correspond to an x/y location (i.e., the spatial location of a sighting). The second column is the name of the species which was sighted. Variable sp2 will contain all species included in analysis.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\f5
+ }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+surv_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the survey data, containing presence/absence data, for many species. The first column is an index, which corresponds to the row number in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. Columns are presence/absence for each species observed in the survey(s). One can insert NAs, if there are locations where certain species were not assayed (e.g., if only trees were surveyed in some sites). Species names must be found in column two of }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+so_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, or they will not be analyzed. Variable }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ will contain all surveyed species included in analysis.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+val_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f surveyed locations withheld for validation purposes (i.e., these locations should not occur in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+surv_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+). The first column is an index, which corresponds to the row number in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. Columns are presence/absence for each species observed in the validation data set. One can insert NAs, if there are locations where certain species were not assayed (e.g., if only trees were surveyed in some sites). Species names must be found in column two of }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+so_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, or they will not be analyzed. }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+val_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ is only needed if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T (see below). Otherwise, set to NA.  }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+traits_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f a trait database. Each row corresponds to a species name. Columns correspond to trait predictors. }{\cf1\i\b\dbch\af8\ai\ab\rtlch \ltrch\loch\loch\f5
+There should be no NAs in the dataset.}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ In the sample file, NAs were replaced with zero, which corresponds to the mean value, as each trait variable was scaled to mean=0, sd=1. Note, values are set to zero for species (in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+) missing from }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+traits_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. Also note that for duplicate entries, only the first entry is used. }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Also, be sure that numeric and factor data types are set as appropriate.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+trait_names}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - the trait variables to include in the analysis. Must match column names in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+trait_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab na_insert}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f allows for species/locations to be set to NA. Given that one might combine heterogeneous surveys, this allows for the condition if some species were not surveyed in some locations. The format is the same as }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+so_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, with the first column being the index of locations, corresponding to row numbers in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, and the second column being the species name (which will be compared against }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+). Set }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+na_insert}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=NA to exclude this file.\tab }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+opts}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+: list containing options.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab scale_var}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f if true, numeric input for each environmental and trait predictor will be scaled to mean=0, sd=1.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab min_rec }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\u8211\'3f if >0, will exclude any species with fewer sightings than }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+min_rec}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab npseudoab}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the number of pseudoabsence sites used. }{{\*\bkmkstart __DdeLink__378_586802597}\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Note that if datafiles are pre-calculated (see }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+fit files}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ below), unsure the species included match}{{\*\bkmkend __DdeLink__378_586802597}\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab mk_pseudoab}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, if true will randomly select }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+npseudoab}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ sites. If false, one can input a pseudoabsence file directly, which should contain the same columns as }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, as well as columns for so (=1) and pa (=0) (see example file).}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab mk_sightings}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f If true, run through each individual species, using the sightings only SDM (default is GAM). If false, input the relevant dataframes, which contain the probabilistic output from the sightings only model (see example files, so_fit, so_val, }{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+so_prjt }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+- depending on options }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_projections}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ below; note, in this case any NAs will need to be input manually, rather than via }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+na_insert}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+). Each column should correspond to a species found in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+so_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, meeting inclusion criteria (in variable }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+). }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab mk_S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f If true, run through each individual species, using the S2 SDM (default is GAM, with a dummy variable differentiating survey data from sightings). If false, input the relevant dataframes, which contain the probabilistic output from the S2 model (see example files, S2_fit, S2_val, S2_prjt - depending on options }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_projections}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ below). Each column should correspond to a species found in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+surv_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, meeting inclusion criteria (in variable}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+ sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+). }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab comp_S2 }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\u8211\'3f if true, will make or input S2 dataframe, for further comparison. It is not needed to calculate the BaK model. If false, will omit all S2 analysis/processing.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f if true will conduct validation (requiring }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+val_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ datafile). }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab mk_projections}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f if true will project probabilities of occurrence for each species (requiring }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+prjt_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ datafile).}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab ncores}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the number of cores used for single species SDMs. If set to NA, will use the number of cores on the computer minus one.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab prjt_integer}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f for the projection dataframes, multiplies it by a constant (}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+prjt_integer}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+), and converts them to integers.Given that the dataframes can become very large, this can reduce the size by an order of magnitude. Note that this is only applied to the projections, not the fitting or validation sets, given that the projections are anticipated to be the largest dataset. }{\cf1\i\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+By default, projection probabilities are scaled by 10000}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+. Please note that the same scaling is expected for sightings only projections, and will be adjusted accordingly in the BaK projections. If }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+prjt_integer}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=NA, will keep original probabilities. }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+fit_files}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+: list containing optional files, if output has been previously saved, or generated elsewhere using single species sdms. See output descriptions below. These are only needed if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and/or }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_sightings}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ are set to false (i.e., do not run the single species SDMs). Additionally, if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and/or }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_projections}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ are false, *val and/or *prjt files would not be needed, respectively. }{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Note that if datafiles are pre-calculated, unsure}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+min_rec}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ yields the same species lists.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+s}{\cf1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+dms}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+: list containing function pointers for single species SDMs for sightings only (so), S2 (S2), and a prediction function for each (so_predict, S2_predict). Default functions are provided, and are based on GAMs, but can be interchangeably replaced with other SDMs. Outputs should be probabilistic. The primary time constraint is the individual SDMs.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\ul\ulc1\b\dbch\af8\rtlch \ltrch\loch\loch\f5
+Output:}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f species analyzed, found in the survey data used in the fitting set, and included in the sightings only models.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f species analyzed in the sightings only models.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$so}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - probabilistic output for species occurrences using sightings-only SDM (using the sdms prediction functions). Columns are each species found in  }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+so_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ (see variable }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+).}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - probabilistic output for species occurrences using S2 SDM. Columns are each species found in the fitting set }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+surv_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ (see variable }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+).}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$fit}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ -  Rows are each surveyed location used for fitting.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f Rows are each surveyed location used for validation. Only generated/needed if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T. }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$prjt}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - Rows are each location whether probabilities of species occurrences are projected. Only generated/needed if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_prjt}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T. }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$pseudoab}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f the pseudoabsence locations. Each column is an environmental predictor column in }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+env_dat}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, each row is a location (chosen at random by default). Additional columns are added, so = 1 (sightings-only), and pa=0 (absent).}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$bak}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f components related to calculating the bias adjustments}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$bias_l}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f model to calculate locational biases, based on environmental predictors. Currently using 2}{\cf1\super\kerning1\dbch\af8\langfe1081\afs24\alang1081\rtlch \ltrch\loch\fs24\lang4105\loch\f5
+nd}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ order polynomial regression, but these can be replaced with other models}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$bias_sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f model to calculate species biases, based on species traits. Currently using 2}{\cf1\super\kerning1\dbch\af8\langfe1081\afs24\alang1081\rtlch \ltrch\loch\fs24\lang4105\loch\f5
+nd}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ order polynomial regression, but these can be replaced with other models}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$bias_adj}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f final output of glm to combine sightings only predictions, with bias estimates calculated from from }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_l}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$coef}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f coefficients from }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_adj}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+\tab }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$prjt}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - Rows are each location whether probabilities of species occurrences are projected. Only generated if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_prjt}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$fit}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f dataframe of components needed for calculating BaK. Rows are combinations of each species (}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+)/location (survey locations used in fitting set). Columns include observed presence/absence, location and species bias estimates from }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_l}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, calculated BaK estimate, and S2 estimate (if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+comp_S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T). BaK are applied to all }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ species, whereas S2 are applied to }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ species. }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ - dataframe of components needed for calculating BaK. Rows are combinations of each species (}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+)/location (survey locations used in validation set). Columns include observed presence/absence, location and species bias estimates from }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_l}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ and }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+bias_sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+, calculated BaK estimate, and S2 estimate (if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+comp_S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T). BaK are applied to all }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ species, whereas S2 are applied to }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ species (and NA otherwise).  Only generated if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+$eval}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ \u8211\'3f AUC and deviance explained, for fitting and validation sets (if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+mk_val}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T), and for BaK and S2 models. BaK are applied to all species (}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+), whereas S2 and BaK_surv are applied only to species found in the survey data used for fitting (}{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+) (calculated only if }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+comp_S2}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+=T). If S2 fits better than bak_surv, one might prefer S2 for }{\cf1\i\dbch\af8\ai\rtlch \ltrch\loch\loch\f5
+sp}{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+ species, where calculation is possible.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+For a full description of the methodology, please see Leung et al. "A new baseline for countrywide \uc2 \u945\'83\'bf-diversity and species distributions: illustration using >6000 plant species in Panama" Ecol. App, and cite the original publication in the case of re-use. See https://github.com/PRISM-research for the latest model release.\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\f5
+\uc2 \u8212\'81\'5c\u8212\'81\'5c\u8212\'81\'5c\u8212\'81\'5c\u8212\'81\'5c\u8212\'81\'5c\uc1 }
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+written by Brian Leung, 2018, tested using R version 3.4.4, Linux system Ubuntu 16.04.}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+McGill University, Montreal, QC}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Department of Biology / McGill School of Environment}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+brian.leung2@mcgill.ca}
+\par \pard\plain \s0\ql\nowidctlpar\faauto\li0\ri0\lin0\rin0\fi0\ltrpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf1\kerning1\dbch\af9\langfe1081\dbch\af12\afs24\alang1081\loch\f6\fs24\lang4105\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803{\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+See }{{\*\bkmkstart __DdeLink__186_1871525387}\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+Leung et al. "A new baseline for countrywide \uc2 \u945\'83\'bf-diversity and species distributions: illustration using >6000 plant species in Panama" Ecol. App\uc1 }{{\*\bkmkend __DdeLink__186_1871525387}\cf1\dbch\af8\rtlch \ltrch\loch\loch\f5
+.}
+\par }
