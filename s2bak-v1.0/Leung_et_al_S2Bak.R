@@ -32,7 +32,7 @@ opts<-list(scale_var=T,min_rec=10,npseudoab=10000,mk_sightings=F,mk_pseudoab=T,c
 
 nm_dat<-list(so_dat="./so_dat.rds", surv_dat="./surv_dat.rds",env_dat="./env_dat.rds", env_names='env_names.rds', trait_dat="traits.rds", trait_names="traitnames.rds", val_dat="./val_dat.rds", prjt_dat="./prjt_dat.rds", na_insert="na_insert.rds")
 
-fit_files<-list(so_fit="./so_fit.rds",so_prjt="so_prjt.rds",so_val="so_val.rds", S2_fit="./S2_fit.rds", S2_prjt="S2_prjt.rds", S2_val="S2_val.rds", pseudoab="pseudoab.rds")
+fit_files<-list(so_fit="./so_fit.rds",so_prjt="so_prjt.rds",so_val="so_val.rds", S2_fit="./S2_fit.rds", S2_prjt="S2_prjt.rds", S2_val="S2_val.rds", pseudoab=NA)
 
 sdms_functions<-list(so=so_sdm,S2=S2_sdm,so_predict=sdm_predict,S2_predict=sdm_predict) #default functions defined above
 
@@ -472,7 +472,7 @@ S2BaK<-function(o,nd, ff, sdms)
 	l$bak$coef=l$bak$bias_adj$coefficients
 	l$fit$bak=truncatev(predict.glm(l$bak$bias_adj,type="response",newdata=l$fit,na.action=na.pass),"prob")
 	
-	null=mean(l$fit$pa,na.rm=T) #the expectation base on fitting data, if no model were used
+	null=mean(l$fit$pa,na.rm=T) #the expectation based on fitting data, if no model were used
 	print("Fitting")
 	print(paste("num species:",length(unique(l$fit$sp))))
 	l$eval$fit_auc_bak=auc(l$fit$pa,l$fit$bak)
